@@ -142,7 +142,7 @@ int callIntFunc(string proc, int param)
 void main()
 {
 	CallProcedure("printsomething");
-	cout << callIntFunc("PrintMe", "House") << endl;
+	callIntFunc("PrintMe", "House");
 	cout << callIntFunc("SquareValue", 2);
 
 }
